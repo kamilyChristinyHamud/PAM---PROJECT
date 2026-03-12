@@ -131,16 +131,20 @@ ssh -i ~/.ssh/pam_key -o IdentitiesOnly=yes -o PreferredAuthentications=publicke
 
 ⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
-## Observações
+Observações:
 
 Durante o desenvolvimento, identificamos um ponto de melhoria: os segredos MFA ficam guardados em memória (dicionário Python), o que não é indicado para produção. O ideal seria armazená-los em um banco de dados criptografado.
 
 ⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
-[Clique aqui para ver o relatório completo](Project-PAM%20(1).pdf)
+Relatório:
+
+Clique aqui para ver o relatório completo
+
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Autoras
 
 Kamily Hamud — [LinkedIn](https://www.linkedin.com/in/kamily-hamud-349b06252/) | [TryHackMe](https://tryhackme.com/p/kamily.christiny)
 
-Carolina Greiffo
+Carolina Greiffo.

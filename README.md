@@ -137,6 +137,8 @@ Durante o desenvolvimento, identificamos um ponto de melhoria: os segredos MFA f
 
 ⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
+[Clique aqui para ver o relatório completo](Project-PAM%20(1).pdf)
+
 ## Autoras
 
 Kamily Hamud — [LinkedIn](https://www.linkedin.com/in/kamily-hamud-349b06252/) | [TryHackMe](https://tryhackme.com/p/kamily.christiny)

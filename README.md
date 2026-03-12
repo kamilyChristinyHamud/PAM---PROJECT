@@ -21,6 +21,7 @@ O sistema é composto por três containers que se comunicam numa rede Docker pri
 
 Estrutura de Pastas:
 
+```
 pam-project/
 ├── vault/
 │   ├── Dockerfile
@@ -35,6 +36,7 @@ pam-project/
     ├── Dockerfile
     ├── requirements.txt
     └── app.py
+```
 
 Cada subdiretório tem seus próprios arquivos de configuração e Dockerfiles, facilitando a manutenção.
 

@@ -1,0 +1,9 @@
+Port 22
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+
+TrustedUserCAKeys /etc/ssh/ca_key.pub
+
+LogLevel DEBUG3

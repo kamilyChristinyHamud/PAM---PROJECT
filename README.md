@@ -9,7 +9,7 @@ O foco é garantir acesso seguro a servidores privilegiados, e para isso foi imp
 - Autoridade Certificadora (CA)
 - Eliminação completa do uso de senha
 
----
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Arquitetura do Sistema
 
@@ -21,7 +21,7 @@ O sistema é composto por três containers que se comunicam numa rede Docker pri
 | **SSH-Server** | Servidor SSH configurado para aceitar conexões **somente por certificado**, sem senha |
 | **Signer** | Interface web feita em Flask. Valida o MFA e pede pro Vault assinar o certificado |
 
----
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Estrutura de Pastas
 
@@ -44,7 +44,7 @@ pam-project/
 
 Cada subdiretório tem seus próprios arquivos de configuração e Dockerfiles, facilitando a manutenção.
 
----
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Como Executar
 
@@ -92,7 +92,7 @@ docker ps
 ```
 Os três containers (`vault`, `ssh-server`, `signer`) devem aparecer com status `Up`.
 
----
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Como Usar
 
@@ -129,13 +129,13 @@ ssh -i ~/.ssh/pam_key -o IdentitiesOnly=yes -o PreferredAuthentications=publicke
 
 --> O certificado expira em 10 minutos. Após esse período, repita a partir do Passo 3.
 
----
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Observações
 
 Durante o desenvolvimento, identificamos um ponto de melhoria: os segredos MFA ficam guardados em memória (dicionário Python), o que não é indicado para produção. O ideal seria armazená-los em um banco de dados criptografado.
 
----
+⋆｡‧˚ʚ·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·ɞ˚‧｡⋆
 
 ## Autoras
 
